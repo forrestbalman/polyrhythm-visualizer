@@ -164,7 +164,7 @@ play.subscribe((play) => {
 				boxes.update((currentState) => {
 					//finds the box with the matching id and resets the counter to 0
 					let currentBox = currentState.find((currentBox) => currentBox.id === box.id)
-					currentBox.counter = 0
+					currentBox.counter = currentBox.subdivision
 					return currentState
 				})
 

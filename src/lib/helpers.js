@@ -11,7 +11,6 @@ export function generateColor() {
 	let colors = [
 		"9d0208", // red
 		"dc2f02", // orange
-		"805b10", // yellow
 		"386641", // green
 		"1982c4", // blue
 		"8900f2", // purple
